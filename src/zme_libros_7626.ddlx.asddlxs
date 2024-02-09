@@ -30,7 +30,7 @@ annotate view ZC_LIBROS_7626 with
  // Items
   IdLibro;
   @UI:    {   lineItem:       [
-                                  {   position:   10 ,
+                                  {   position:   20 ,
                                       importance: #HIGH } ],
 
               selectionField: [
@@ -39,39 +39,39 @@ annotate view ZC_LIBROS_7626 with
   @Search.defaultSearchElement: true
   @Search.fuzzinessThreshold: 0.9
   @Search.ranking: #HIGH
-  @UI:{ selectionField : [{ position: 40 }] }
+  @UI:{ selectionField : [{ position: 30 }] }
   Editorial;
-  @UI: { lineItem: [{ position: 20 ,
+  @UI: { lineItem: [{ position: 40 ,
   importance: #HIGH }]}
   Autor;
   @Consumption.valueHelpDefinition: [{entity: { name: 'zc_categorias_7626', //Ayuda de busqueda
-  element: 'Descripcion'}}]
+  element: 'Categoria'}}]
   @UI: { fieldGroup: [{ qualifier: 'DetallesLibro',
-  position: 20}],
-  selectionField: [{position: 20}]}
+  position: 50}],
+  selectionField: [{position: 40}]}
   Categoria;
-  @UI: { lineItem: [{ position: 30 ,
-  importance: #HIGH }]}
-  Formato;
-  @UI: { lineItem: [{ position: 40 ,
-  importance: #HIGH }]}
-  Idioma;
-  @UI: { lineItem: [{ position: 50 ,
-  importance: #HIGH }]}
-  Paginas;
   @UI: { lineItem: [{ position: 60 ,
   importance: #HIGH }]}
-  Precio;
+  Formato;
   @UI: { lineItem: [{ position: 70 ,
+  importance: #HIGH }]}
+  Idioma;
+  @UI: { lineItem: [{ position: 80 ,
+  importance: #HIGH }]}
+  Paginas;
+  @UI: { lineItem: [{ position: 90 ,
+  importance: #HIGH }]}
+  Precio;
+  @UI: { lineItem: [{ position: 100 ,
   label: 'Ventas',
   importance: #HIGH,
   value : 'Text',
   criticality: 'Ventas' }]}
   Ventas;
   @UI: { fieldGroup: [{ qualifier: 'DetallesLibro' ,
-  position:30 }]}
+  position:110 }]}
   Descripcion;
-  @UI: { lineItem: [{ position: 80 ,
+  @UI: { lineItem: [{ position: 120 ,
   importance: #HIGH }]}
   //Navegación a Clientes
   _Clientes;

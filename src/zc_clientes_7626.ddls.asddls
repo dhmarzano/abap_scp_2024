@@ -8,8 +8,8 @@
     dataClass: #MIXED
 }
 @Metadata.allowExtensions: true
-@UI.headerInfo: { typeName: 'Libro',
-                  typeNamePlural: 'Libros',
+@UI.headerInfo: { typeName: 'Cliente',
+                  typeNamePlural: 'Clientes',
                   title:        {type : #STANDARD,
                                  value: 'NombreCompleto'},
                   description:  {type : #STANDARD,

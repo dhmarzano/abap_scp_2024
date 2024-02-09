@@ -4,9 +4,9 @@
   <asx:values>
    <SRVB>
     <METADATA>
-     <NAME>ZSB_LIBROS_7626</NAME>
+     <NAME>ZSB_TRAVEL_7626_A</NAME>
      <TYPE>SRVB/SVB</TYPE>
-     <DESCRIPTION>Service binding Libros</DESCRIPTION>
+     <DESCRIPTION>Aprobador de Viajes</DESCRIPTION>
      <LANGUAGE>ES</LANGUAGE>
      <LINKS>
       <item>
@@ -15,7 +15,7 @@
        <TITLE>Historic versions</TITLE>
       </item>
       <item>
-       <HREF>/sap/bc/adt/businessservices/odatav2/ZSB_LIBROS_7626</HREF>
+       <HREF>/sap/bc/adt/businessservices/odatav2/ZSB_TRAVEL_7626_A</HREF>
        <REL>http://www.sap.com/categories/odatav2</REL>
        <TYPE>application/vnd.sap.adt.businessservices.odatav2.v2+xml</TYPE>
        <TITLE>ODATAV2</TITLE>
@@ -44,21 +44,21 @@
     </METADATA>
     <CONTENT>
      <BIND_TYPE_IMPL>
-      <NAME>ZSB_LIBROS_7626</NAME>
+      <NAME>ZSB_TRAVEL_7626_A</NAME>
      </BIND_TYPE_IMPL>
      <BIND_TYPE>ODATA</BIND_TYPE>
      <BIND_TYPE_VERSION>V2</BIND_TYPE_VERSION>
      <SERVICES>
       <item>
-       <SERVICE_NAME>ZSB_LIBROS_7626</SERVICE_NAME>
+       <SERVICE_NAME>ZSB_TRAVEL_7626_A</SERVICE_NAME>
        <SERVICE_CONTENT>
         <item>
          <SERVICE_VERSION>0001</SERVICE_VERSION>
          <RELEASE_STATE>NOT_RELEASED</RELEASE_STATE>
          <SRVD_REF>
-          <URI>/sap/bc/adt/ddic/srvd/sources/zsd_libros_7626</URI>
+          <URI>/sap/bc/adt/ddic/srvd/sources/zsd_travel_7626_a</URI>
           <TYPE>SRVD/SRV</TYPE>
-          <NAME>ZSD_LIBROS_7626</NAME>
+          <NAME>ZSD_TRAVEL_7626_A</NAME>
          </SRVD_REF>
          <BIND_TYPE_DATA>
           <CONTENT>

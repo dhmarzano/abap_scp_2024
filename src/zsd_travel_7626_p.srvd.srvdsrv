@@ -1,0 +1,15 @@
+@EndUserText.label: 'Procesador de Viajes'
+define service Zsd_travel_7626_p {
+  expose ZC_C_TRAVEL_7626_P    as Travel;
+  expose ZC_C_BOOKING_7626_P   as Booking;
+  expose ZC_C_BKSUPPL_7626_P   as BokkingSupplement;
+  expose /DMO/I_Supplement     as Supplement;
+  expose /DMO/I_SupplementText as SupplementText;
+  expose /DMO/I_Customer       as Passenger;
+  expose /DMO/I_Agency         as Agency;
+  expose /DMO/I_Carrier        as Airline;
+  expose /DMO/I_Connection     as FlightConnection;
+  expose /DMO/I_Flight         as Flight;
+  expose I_Currency            as Currecy;
+  expose I_Country             as Country;
+}

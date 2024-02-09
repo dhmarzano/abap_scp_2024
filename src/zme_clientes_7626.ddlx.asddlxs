@@ -29,7 +29,7 @@ annotate entity ZC_CLIENTES_7626 with
   position: 20 }]}
   Acceso;
 
-  @UI : { lineItem: [{ position: 20,
+  @UI : { lineItem: [{ position: 30,
   importance: #HIGH }],
   fieldGroup: [{ qualifier: 'DetallesCliente',
   position: 30 }]}
